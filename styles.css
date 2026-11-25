@@ -327,6 +327,31 @@ h2 {
   color: var(--muted);
 }
 
+.wx {
+  margin: 0.15rem 0 0.7rem;
+  color: var(--lake);
+  font-weight: 700;
+}
+
+.wx.rain {
+  color: var(--seal);
+}
+
+.forecast {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.forecast h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.15rem;
+}
+
+.forecast ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
 .place-head,
 .shop-head {
   display: flex;
